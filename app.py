@@ -12,4 +12,4 @@ def hello_world():
 
 # Run the Flask app when the script is executed directly
 if __name__ == '__main__':
-    app.run()  # Start the development server with debugging enabled
+    app.run(debug=True)  # Start the development server with debugging enabled
